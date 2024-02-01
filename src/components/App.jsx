@@ -1,8 +1,7 @@
-import React from "react";
 import { useState, useEffect } from "react";
+import "../styles/App.css";
 
 // import { profile } from "./assets/profile.png";
-import "./App.css";
 
 function App() {
     const [count, setCount] = useState(false);

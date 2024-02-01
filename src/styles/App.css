@@ -4,6 +4,8 @@
     border: none;
 }
 
+/* DROPDOWN MENU */
+
 header {
     display: flex;
     align-items: center;
@@ -22,7 +24,7 @@ header {
     padding: 0;
     margin-left: auto;
     border-radius: 50%;
-    background-image: url(./assets/menu_btn.png);
+    background-image: url(../assets/menu_btn.png);
 }
 
 .menu {
@@ -37,6 +39,10 @@ header {
     visibility: hidden;
     transform: translateY(-10px);
     transition: 0.3s;
+}
+
+nav {
+    background-color: blueviolet;
 }
 
 .menu.active {
@@ -57,15 +63,16 @@ header {
     align-items: center;
     font-size: 15px;
     /* font-weight: 500;  */
-    color: brown;
+    color: rgb(2, 1, 5);
     cursor: pointer;
+    border: 0.5px solid rgb(255, 255, 255);
 }
 
 .menu-item:nth-child(n + 2) {
     margin-top: 15px;
 }
 
-.menu::before,
+/* .menu::before,
 .menu::after {
     display: block;
     position: absolute;
@@ -74,7 +81,7 @@ header {
     content: "";
     right: 15px;
     border: 5px solid transparent;
-}
+} */
 
 .menu::before {
     top: -20px;

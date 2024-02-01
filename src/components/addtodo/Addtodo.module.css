@@ -1,0 +1,11 @@
+.main_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input_save {
+    display: flex;
+    border: 1px solid black;
+    width: 100px;
+    height: 15px;
+}
